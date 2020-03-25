@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://covprehension.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://covprehension.org/" rel="alternate" type="text/html" /><updated>2020-03-25T23:32:55+00:00</updated><id>https://covprehension.org/feed.xml</id><title type="html">CoVprehension</title><subtitle>Comprendre l'épidémie actuelle de COVID-19</subtitle><author><name>Des scientifiques</name></author><entry><title type="html">Question 0 : Pourquoi ce site ?</title><link href="https://covprehension.org/2020/03/24/q0.html" rel="alternate" type="text/html" title="Question 0 : Pourquoi ce site ?" /><published>2020-03-24T00:00:00+00:00</published><updated>2020-03-24T00:00:00+00:00</updated><id>https://covprehension.org/2020/03/24/q0</id><content type="html" xml:base="https://covprehension.org/2020/03/24/q0.html">&lt;p&gt;Nous sommes nombreux à travers le monde à nous interroger sur l’épidémie actuelle de COVID-19 et en particulier sur les mesures individuelles et collectives à mettre en oeuvre afin de limiter la propagation du virus.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://covprehension.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://covprehension.org/" rel="alternate" type="text/html" /><updated>2020-03-25T23:49:52+00:00</updated><id>https://covprehension.org/feed.xml</id><title type="html">CoVprehension</title><subtitle>Comprendre l'épidémie actuelle de COVID-19</subtitle><author><name>Des scientifiques</name></author><entry><title type="html">Question 0 : Pourquoi ce site ?</title><link href="https://covprehension.org/2020/03/24/q0.html" rel="alternate" type="text/html" title="Question 0 : Pourquoi ce site ?" /><published>2020-03-24T00:00:00+00:00</published><updated>2020-03-24T00:00:00+00:00</updated><id>https://covprehension.org/2020/03/24/q0</id><content type="html" xml:base="https://covprehension.org/2020/03/24/q0.html">&lt;p&gt;Nous sommes nombreux à travers le monde à nous interroger sur l’épidémie actuelle de COVID-19 et en particulier sur les mesures individuelles et collectives à mettre en oeuvre afin de limiter la propagation du virus.&lt;/p&gt;
 
 &lt;p&gt;Ce site web interactif a été créé par une équipe de &lt;a href=&quot;https://covprehension.org/about&quot;&gt;chercheurs&lt;/a&gt; de différentes disciplines, tous spécialistes de la modélisation des systèmes complexes et désireux de mobiliser leurs compétences pour répondre à ces interrogations légitimes.&lt;/p&gt;
 
@@ -20,15 +20,15 @@
 
 &lt;p&gt;L’un des gros avantages de ce modèle est que l’on peut le simuler et visualiser la propagation de l’épidémie virtuelle ainsi créée &lt;a href=&quot;/simulations/CoVprehension.html&quot;&gt;(Simulation 1a : Le virus et nous)&lt;/a&gt;.&lt;/p&gt;
 
-&lt;div id=&quot;particles-js&quot;&gt;&lt;/div&gt;
-&lt;canvas id=&quot;myChart&quot;&gt;&lt;/canvas&gt;
-&lt;script src=&quot;part_js/app.js&quot;&gt;&lt;/script&gt;
+&lt;div id=&quot;particles-js-Q1A&quot;&gt;&lt;/div&gt;
 
 &lt;p&gt;Dans ce cas le plus simple, on voit que la vitesse de propagation du virus dans la population (la courbe rouge) est directement liée au nombre de personnes infectées (la courbe verte) et que cette dynamique fonctionne comme une boule de neige une fois le nombre de personnes infectées suffisamment important : plus ce nombre augmentera au cours de l’épidémie et plus le nombre de personnes infectées à chaque nouveau pas de temps sera important. C’est la phase d’accélération de l’épidémie, celle que l’on qualifie de croissance exponentielle.&lt;/p&gt;
 
 &lt;p&gt;Une fois que le nombre de personnes susceptibles d’être infectées devient trop faible, la propagation du virus ralentit rapidement et l’épidémie finit par s’éteindre d’elle-même.&lt;/p&gt;
 
 &lt;p&gt;Naturellement, cette vitesse de propagation va dépendre des caractéristiques du virus, mais aussi de la fréquence des contacts entre les gens. Si on reproduit la même simulation avec dix fois plus de monde, on s’aperçoit immédiatement que la dynamique de l’épidémie est beaucoup plus rapide : le croisement entre les deux courbes, qui signifie que la moitié de la population est infectée, se fait plus tôt &lt;a href=&quot;/simulations/CoVprehension.html&quot;&gt;(Simulation 1b : Plus on est de fous…)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div id=&quot;particles-js-Q1B&quot;&gt;&lt;/div&gt;
 
 &lt;p&gt;Au final, &lt;strong&gt;&lt;em&gt;plus nous entrons en contact les uns avec les autres et plus nous favorisons la propagation du virus&lt;/em&gt;&lt;/strong&gt;. C’est aussi simple que ça.&lt;/p&gt;
 
