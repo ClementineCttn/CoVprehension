@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    Question 3 : Pourquoi ne pas se contenter de simplement éviter tout contact avec les personnes malades ?  - CoVprendre
+    
+  </title>
+
+  <meta name="description" content="Commençons par simplifier le problème, de manière à n’en conserver que son moteur principal : d’un côté des gens qui vivent leur vie et, ce faisant, entrent ...">
+
+  <!-- TEMPLATE -->
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="/assets/vendor/fontawesome-free/css/all.min.css">
+
+  <!-- PLUGIN -->
+  <link rel="stylesheet" href="/assets/particules.css">
+
+  <!-- CUSTOM -->
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="https://covprehension.org/2020/03/24/q3.html">
+  <link rel="alternate" type="application/rss+xml" title="CoVprendre" href="/feed.xml">
+
+</head>
+
+
+<body>
+
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">CoVprendre</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/simulations/COVID-19.html">Simulations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">Vous avez des questions ?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">Ressources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">À Propos</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Page Header -->
+
+<header class="masthead"  style="background-image: url('/img/bg-index.jpg')">
+
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-heading">
+          <h1>Question 3 : Pourquoi ne pas se contenter de simplement éviter tout contact avec les personnes malades ? </h1>
+          
+          <h2 class="subheading">[A REVOIR] Essayons de voir ce que cela donnerait effectivement dans notre simulation. Imaginons, pour commencer, que l’on soit capable d’identifier les personnes contagieuses et par conséquent de les éviter.</h2>
+          
+          <span class="meta">Posté par
+            <a href="#">Des scientifiques</a>
+             &middot; <span class="reading-time" title="Estimated read time">
+  
+   2 mins  read </span>
+
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+
+      <p>
+  Commençons par simplifier le problème, de manière à n’en conserver que son moteur principal : d’un côté des gens qui vivent leur vie et, ce faisant, entrent en interaction physique les uns avec les autres et d’un autre côté un virus introduit par une personne (son hôte). A partir du moment où une personne infectée par le virus est contagieuse, elle pourra le transmettre à d’autres personnes saines avec qui elle entrera en contact. Nous venons de formuler ici les bases d’un modèle très simple, que l’on peut ensuite simuler.
+</p>
+
+<div id="particles-js"></div>
+<canvas id="myChart"></canvas>
+
+<p>
+  Dans ce cas le plus simple, on voit que la vitesse de propagation du virus dans la population présente est directement liée au nombre de personnes infectées et que cette dynamique fonctionne comme une boule de neige une fois le nombre de personnes infectées suffisamment important : plus ce nombre augmentera au cours de l’épidémie et plus le nombre de personnes infectées à chaque nouveau pas de temps sera important. C’est la phase d’accélération de l’épidémie, celle que l’on qualifie de croissance exponentielle.
+</p>
+<p />
+
+<p>Une fois le nombre de personnes susceptibles d’être infectées devient trop faible, la propagation du virus ralenti rapidement et l’épidémie fini par s’éteindre d’elle-même.
+&lt;/p&gt;</p>
+<p>
+  Naturellement, cette vitesse de propagation va dépendre des caractéristiques du virus, mais aussi de la fréquence des contacts entre les gens. Si on reproduit la même simulation avec dix fois plus de monde, on s’aperçoit immédiatement que la dynamique de l’épidémie est beaucoup plus rapide.
+</p>
+
+<div class="embed-responsive embed-responsive-16by9">
+	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SSUyedoTPLU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+
+<p>
+Au final, plus nous entrons en contact les uns avec les autres et plus nous favorisons la propagation du virus. C’est aussi simple que ça !
+</p>
+
+<p class="post-meta">Basé sur <a href="#">cette super étude</a></p>
+
+
+      <hr>
+
+      <div class="clearfix">
+
+        
+        <a class="btn btn-primary float-left" href="/2020/03/24/q2.html" data-toggle="tooltip" data-placement="top" title="Question 2 : Si on s’éloigne les uns des autres, est-ce que ça change vraiment quelque chose ? (Vidéo Youtube)">&larr; Question<span class="d-none d-md-inline">
+            Précédente</span></a>
+        
+        
+        <a class="btn btn-primary float-right" href="/2020/03/25/q0.html" data-toggle="tooltip" data-placement="top" title="Question 0 : Pourquoi ce site ?">Question<span class="d-none d-md-inline">
+            Suivante</span> &rarr;</a>
+        
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+  <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          <li class="list-inline-item">
+            <a href="mailto:your-email@example.com">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://twitter.com/\#">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com/\#">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/\#">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/\#">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy; Des scientifiques 2020</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- TEMPLATE -->
+<script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/template/js/clean-blog.min.js"></script>
+
+<!-- PLUGIN -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+
+<script src="/assets/particles.js"></script>
+<script src="/assets/app.js"></script>
+
+<!-- CUSTOM -->
+<script src="/assets/scripts.js"></script>
+
+
+
+
+  
+
+
+</body>
+
+</html>
