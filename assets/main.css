@@ -5,8 +5,7 @@ body {
 
 p {
   line-height: 1.5;
-  margin: 30px 0;
-  text-align: justify; }
+  margin: 30px 0; }
   p a {
     text-decoration: underline; }
 
@@ -313,6 +312,9 @@ footer {
 .btn-lg {
   font-size: 16px;
   padding: 25px 35px; }
+
+p {
+  text-align: justify; }
 
 .container {
   max-width: 90vw; }
