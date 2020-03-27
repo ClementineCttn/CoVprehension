@@ -316,6 +316,9 @@ footer {
 p {
   text-align: justify; }
 
+img {
+  width: 100%; }
+
 .container {
   max-width: 90vw; }
 
