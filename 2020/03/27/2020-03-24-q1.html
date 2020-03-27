@@ -1,0 +1,33 @@
+<p>La propagation du virus à l’origine de cette épidémie est effectivement très <a href="https://www.lemonde.fr/les-decodeurs/article/2020/03/16/coronavirus-en-france-le-bilan-actualise-et-la-carte-des-contaminations_6033283_4355770.html">rapide</a>. La forte contagiosité du virus en est responsable bien sûr, mais <strong><em>nous avons également notre part de responsabilité</em></strong>. Démonstration !</p>
+
+<p>Commençons par simplifier le problème, de manière à n’en conserver que son moteur principal : d’un côté des gens qui se déplacent afin de réaliser leurs activités au quotidien et, ce faisant, entrent en contact les uns avec les autres et d’un autre côté un virus introduit par une personne (son hôte).</p>
+
+<p><img src="/img/posts/Q1_1.jpg" class="full-size" /></p>
+
+<p>Simplifions également le mécanisme de transmission du virus : à partir du moment où une personne est infectée par le virus elle est aussitôt contagieuse et pourra immédiatement le transmettre à d’autres personnes saines avec qui elle entrera en contact.</p>
+
+<p><img src="/img/posts/Q1_2.jpg" class="half-size" /></p>
+
+<p>Nous venons de formuler ici les bases d’un modèle très simple, qui pourra ensuite être enrichi, afin de mieux correspondre aux spécificités de l’épidémie de COVID-19.</p>
+
+<p>L’un des gros avantages de ce modèle est que l’on peut le simuler et visualiser ainsi la propagation de cette épidémie virtuelle <a href="/simulations/CoVprehension.html">(Simulation 1a : Le virus et nous)</a>.</p>
+
+<div id="particles-js-Q1A"></div>
+
+<p>Les deux courbes (en rouge les personnes qui sont infectées, en vert celles qui ne le sont pas) évoluent en miroir, de manière symétrique. Elles se croisent lorsque la moitié de la population est infectée. Une fois que le nombre de personnes susceptibles d’être infectées devient trop faible, la propagation du virus ralentit rapidement et l’épidémie finit par s’éteindre d’elle-même.</p>
+
+<p>Naturellement, cette vitesse de propagation va dépendre des caractéristiques du virus, mais aussi de la fréquence des contacts entre les gens.</p>
+
+<p><img src="/img/posts/Q1_3.jpg" class="half-size" /></p>
+
+<p>Si on reproduit la même simulation avec dix fois plus de monde, on s’aperçoit immédiatement que la dynamique de l’épidémie est beaucoup plus rapide : le croisement entre les deux courbes, qui signifie que la moitié de la population est infectée, se fait plus tôt <a href="/simulations/CoVprehension.html">(Simulation 1b : Plus on est de fous…)</a>.</p>
+
+<div id="particles-js-Q1B"></div>
+
+<p>On constate également que la vitesse de propagation du virus dans la population (la courbe rouge) est directement liée au nombre de personnes infectées et au nombre de personne encore saines, de manière multiplicative. Cette dynamique fonctionne un peu comme une boule de neige qui roulerait le long d’une pente enneigée : une fois le nombre de personnes infectées suffisamment important, plus ce nombre augmentera au cours de l’épidémie et plus le nombre de personnes infectées à chaque nouveau pas de temps sera important. C’est la phase d’accélération de l’épidémie, celle que l’on qualifie de croissance exponentielle.</p>
+
+<p>Au final, <strong><em>plus nous entrons en contact les uns avec les autres et plus nous favorisons la propagation du virus</em></strong>. C’est aussi simple que ça.</p>
+
+<p>Ce principe reste essentiel, même si de nombreuses simplifications ont été faites. Une analyse un peu plus approfondie est disponible pour celles et ceux qui souhaiteraient aller plus loin.</p>
+
+<p><a href="/2020/03/26/q1-1.html" class="btn btn-primary">Aller plus loin</a></p>
